@@ -8,6 +8,7 @@
 .loginsignup-login span{color:#ff4141;font-weight: 600;}
 .loginsignup-here{display: flex;gap:10px}
 .loginsignup-agree{display: flex;align-items: center;margin-top: 25px;gap:20px;color:#5c5c5c;font-size: 10px;font-weight: 500;}
+span{cursor: pointer;}
 
 @media(max-width:1280px){
     .loginsignup{padding-top:50px}
