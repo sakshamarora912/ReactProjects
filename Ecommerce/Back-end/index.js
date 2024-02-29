@@ -146,6 +146,20 @@ app.post('/login',async(req,res)=>{
     }
     else{res.json({success:false,errors:"wrong email"})};
 })
+app.get('/newcollections',async(req,res)=>{
+    let products=await Product.find({});
+    let newcollection=products.slice(1);
+    console.log("new Collection Fetched");
+    res.send(newcollection);
+})
+
+app.get('/poularinwomen',async(req,res)=>{
+    let products=await Product.find({category:"women"});
+    let popular_in_women=products.slice(0,4);
+    console.log("popular in women");
+    res.send(popular_in_women);
+})
+
 
 app.listen(port,(error)=>{
     if(!error){console.log("Server Running on Port"+port)}
