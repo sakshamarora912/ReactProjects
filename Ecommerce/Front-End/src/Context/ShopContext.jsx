@@ -20,6 +20,7 @@ const ShopContextProvider = (props)=>{
         fetch('http://localhost:4000/allproducts')
         .then((response)=>response.json())
         .then((data)=>setAll_Product(data))
+        .catch((err) => console.log("Failed the fetch products"))
 
         if(localStorage.getItem('auth-token')){
             fetch('http://localhost:4000/getcart',{

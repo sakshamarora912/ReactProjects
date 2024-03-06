@@ -1,0 +1,34 @@
+.reason{    background: black;
+    margin: 0;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px 1px #c71c1c;}
+
+.part-1{ padding:2em 2em 2em 6em ;height:25rem;transition: box-shadow 0.1s;} 
+.part-1 h2{width: 10em; color: white;font-weight: 900;font-size:4em;margin: 2em 0 .5em 0;}
+.part-1 p{width:26em;color:grey;font-weight: 600;}
+.btn-secondary{border-radius:1em;margin: 1.4em 2em;font-size: 1.4em;}
+
+.part-3{ background:url(./images/part-3-image.png),black;padding:0 1em}
+.part-3 .parent{display: flex;margin: 0px 7em;flex-wrap: wrap;}
+.child{overflow: hidden;position:relative;overflow:hidden;flex-direction: column;margin: .4em;border-radius: 1em;padding:1em;width:12.5em;height:9em;}
+.child:hover{box-shadow: 1px 1px 16px 5px white;border:2px solid white}
+.child:nth-child(3n-2){background-color: #d68787;}
+.child:nth-child(3n-1){background-color: #c71c1c;}
+.child:nth-child(3n){background-color: #d64545;}
+/* .child img{margin: 1em 5em; border-radius: 4em;width:4em;margin-top: 0;} */
+.child h1{color:white;font-size: 1.5em;text-align: center;margin:0px;font-weight: 800;text-shadow: none;    Padding: 0.2em;}
+.child h2{color: white; text-align: center;font-size: 1em;font-weight:lighter;text-shadow: none;}
+.child::before{content:'';bottom: -5em;left: 5em;width: 5em;height: 27em;position:absolute;background: white;animation:animate 2s linear infinite;z-index:-1;}
+@keyframes animate{0%{transform: rotate(0deg);}100%{transform: rotate(360deg)}}
+.child::after{content:'';position:absolute;inset:5px;border-radius: 1em;height: 17.5em;width: 13.5em;background: black;z-index: -1;}
+hr{border: 0;border-top: 1px solid rgba(0, 0, 0, .1);}
+
+.section-title{color: #c71c1c;position: absolute;width:13em;top:15em;left: 16em; font-size: 2em;text-shadow:1px 1px 2px grey; text-align: center;padding:.6em 0;margin:0px;outline: blanchedalmond;}
+.part-2{padding: 1em 16em;;justify-content: center;background: radial-gradient(circle farthest-corner at 50% 50%,black 70%,#141414 30%,grey 50%); padding-top:3em}
+.part-2 button{border-radius: .4em;width:7em; font-size: 1.4em; margin:.4em}
+.part-2 .plan{display: flex; text-align: center;margin: 3rem 1rem; padding:1.4em 0;width:20% ;height: 32em;text-align: center;vertical-align: middle;border-radius: 1em;}
+.plan_type{color: black;}
+.plan-child{width: 16em;background: white;padding: 1em;margin: 0 1em;}
+.plan_features .plan-child{width: 12em;padding: 0;}
