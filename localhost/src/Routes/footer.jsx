@@ -22,8 +22,8 @@ const div = () => {
 
             <div style={{flexDirection:"row"}}>
                 <ul >
-                    <li><Link style={{color: "white",textDecoration:"none"}} to="">Privacy Policy</Link></li>
-                    <li><Link style={{color: "white",textDecoration:"none"}} to=""> Terms of service</Link></li>
+                    <li><Link style={{color: "white",textDecoration:"none"}} to='/privacy-policy'>Privacy Policy</Link></li>
+                    <li><Link style={{color: "white",textDecoration:"none"}} to='/term-policy'>Terms of service</Link></li>
                 </ul>
                 <ul style={{flexDirection: "row"}}>
                     <li><Link style={{color: "white",textDecoration:"none"}} to="contact-us.html">Contact Us</Link></li>

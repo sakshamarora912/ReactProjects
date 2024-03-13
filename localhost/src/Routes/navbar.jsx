@@ -6,7 +6,7 @@ import './CSS/navbar.css'
 const navbar = () => {
   const [plan,setPlan]=useState("home");
   return (
-   <div className="navbar">
+   <div className="navbar" style={{flexWrap:"nowrap"}}>
     <div onClick={()=>{setPlan("home")}}>
       <Link to="/"className="nav-logo">LOCAL<span style={{color: "#8c0707"}}>HOST</span></Link> 
     </div>
@@ -23,7 +23,7 @@ const navbar = () => {
       </div>
     <Link to="/"><button className="tag">About Us</button></Link>
     <button className="login">
-      <Link to="/">Log-In</Link>
+      <Link to="/login">Log-In</Link>
     </button>
     </div>
    </div>

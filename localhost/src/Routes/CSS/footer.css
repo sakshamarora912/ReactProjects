@@ -7,9 +7,9 @@
 .front,.back{position: absolute;width: 10em;height: 10em;}
 .front{background-size:100% 100%;}
 .back{transform: rotateY(180deg);transform-style: preserve-3d;}
-.back .content{box-shadow: 1px 1px 5px; background:black;position: absolute;color: white;transform: translateZ(100px);padding:1em}
+.back .content{background:black;position: absolute;color: white;transform: translateZ(100px);padding:1em}
 .card:hover .box{transform:rotateY(180deg);}
-.back .content{text-align: left;height:8em;width:8em}
+.back .content{text-align: left;height:10em;width:10em}
 .back .content h1{font-size:1.2em;}
 
 .fa-whatsapp{color:green;width: 1.2em;height: 1.2em;padding: 0.1em;}

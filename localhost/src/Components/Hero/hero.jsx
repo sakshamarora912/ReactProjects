@@ -22,9 +22,9 @@ const hero = (props) => {
           </select >
           <button>check</button>                  
         </form>
-      <div className="btn"><Link to="#target"><button className="btn-danger">Show plans</button></Link></div>
+      <div className="btn" style={{width:"100%"}}><Link to="#target"><button className="btn btn-danger" style={{width: "7em",margin: "auto"}}>Show plans</button></Link></div>
     </div>
-      <div className="introduction" style={{backgroundImage: `url(${props.intro_img})` }}>
+      <div className="introduction" style={{ backgroundImage: `url(${props.intro_img})` }}>
         <h1>Get the Best Web Hosting</h1>
         <h3>Create your website with this exclusive plans</h3>
         <ul>
@@ -36,7 +36,7 @@ const hero = (props) => {
         </ul>
         <h2>Starting at</h2>
         <div>$2.99/month</div>
-      <Link to="#target"><button className="btn-dark">Get started</button></Link>
+      <Link to="#target"><button className="btn btn-dark"style={{width: "7em",margin: "auto"}}>Get started</button></Link>
       </div>
     </div>
   )
