@@ -5,6 +5,7 @@ import cart_icon from '../Assets/cart_icon.png';
 import { ShopContext } from '../../Context/ShopContext';
 import { Link } from 'react-router-dom';
 import nav_dropdown from'../Assets/nav_dropdown.png'
+import "@fontsource/poppins";
 
 const Navbar = () => {
   const [menu,setMenu]=useState("shop");

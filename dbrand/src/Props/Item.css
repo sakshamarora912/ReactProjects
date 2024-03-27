@@ -1,0 +1,6 @@
+.container{font-family: "Poppins";display:flex;margin: 0!important;padding: 0!important;}
+.container-heading{text-align: left;width:34%;height:27.5em;display: flex;flex-direction: column;margin-top: 12em;margin-left: 5em}
+.container-heading h1{font-size: 4em;margin: 0.3em 0;}
+ p{font-size: 1.2em;margin: 1em 0;color:grey;font-size:1.5em;width: 11em;}
+.container-image{overflow: hidden;height: 40em;position: relative;background-attachment: fixed;height: 40em;width: 44em; left:3em; background-size: 125em 45em;}
+.btn{width: 9em;background: black;height: 3em;color: white;border: 2px solid black;border-radius: 5px;font-size: 1.2em;}
